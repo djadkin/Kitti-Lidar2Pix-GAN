@@ -1,0 +1,6 @@
+imageio==2.27.0
+ipython==8.11.0
+numpy==1.24.2
+shapely==2.0.1
+skimage==0.0
+tqdm==4.65.0
