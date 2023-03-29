@@ -12,7 +12,7 @@ $ source <env_name>/bin/activate
 and install your favourite version of [PyTorch](https://pytorch.org/get-started/locally/).
 
 ## Export cropped images of objects and their corresponding 3D point clouds 
-Heads up: This preprocessing of the Kitti dataset takes hours due to the point cloud search for each image required to extract objects.
+Heads up: This preprocessing of the Kitti dataset takes a while to the point cloud search for each image required to extract objects.
 1. download left image, velodyne points, labels, calibration: https://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d
     * put them in ./data/raw:
         * ./data/raw/calib
