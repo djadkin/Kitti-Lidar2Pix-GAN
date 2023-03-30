@@ -63,7 +63,6 @@ def get_object_centers(img_filename, label_filename, draw_border=False):
                     img[bottom_pixel-i, left_pixel:right_pixel, :] = box_border_color
                     img[top_pixel:bottom_pixel, left_pixel+i, :] = box_border_color
                     img[top_pixel:bottom_pixel, right_pixel-i, :] = box_border_color
-    # TODO: Check that the object isn't on border
     return lines, img, obj_centers
 
 def get_point_idxs(point_cloud_filename, label_filename, calib_filename):
